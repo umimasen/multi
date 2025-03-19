@@ -20,6 +20,16 @@ app.get('/contact', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'contact.html'));
 });
 
+// Route for blog page
+app.get('/blog', (req, res) => {
+    res.sendFile(path.join(__dirname, 'views', 'blog.html'));
+});
+
+// Serve JSON data for blog posts
+app.get('/data/post.json', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'data', 'post.json'));
+});
+
 // Start the server
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
