@@ -27,8 +27,9 @@ app.get('/blog', (req, res) => {
 
 // Serve JSON data for blog posts
 app.get('/data/post.json', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'data', 'post.json'));
+    res.sendFile(path.join(__dirname, 'data', 'post.json'));
 });
+
 
 // Start the server
 app.listen(PORT, () => {
