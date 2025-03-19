@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ffb6c1, #98fb98); 
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #d63384; 
+    font-size: 2.5em;
+  }
+  
+  p {
+    color: #2e8b57; 
+    font-size: 1.2em;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ff1493; /* Strawberry color */
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #2e8b57; /* Matcha color */
+  }
+  
